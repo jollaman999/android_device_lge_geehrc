@@ -167,9 +167,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 ## Sounds
 PRODUCT_PROPERTY_OVERRIDES += \
-	af.resample=48000 \
-	persist.audio.pcm.samplerate=48000 \
-	persist.audio.samplerate=48000 \
+	af.resample=44100 \
+	persist.audio.pcm.samplerate=44100 \
+	persist.audio.samplerate=44100 \
 	lpa.decode=true \
 	persist.audio.fluence.enable=1 \
 	persist.audio.hp=true \

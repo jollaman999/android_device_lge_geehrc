@@ -179,9 +179,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.radio.jbims=1 \
 	ro.qc.sdk.audio.fluencetype=fluencepro \
 	ro.sound.driver=alsa \
-	ro.sound.alsa=snd_pcm \
-	ro.sound.alsa=WCD9310 \
-	ro.sound.alsa=msm8960sndcard
+	ro.sound.alsa=snd_pcm
 
 ## Volume Steps
 PRODUCT_PROPERTY_OVERRIDES += \
